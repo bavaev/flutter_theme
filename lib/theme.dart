@@ -21,8 +21,8 @@ ThemeData themeLight = _themeLight.copyWith(
     style: ElevatedButton.styleFrom(
       padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      primary: Colors.deepOrange[100],
-      onPrimary: Colors.black,
+      backgroundColor: Colors.deepOrange[100],
+      foregroundColor: Colors.black,
     ),
   ),
   appBarTheme: AppBarTheme(
